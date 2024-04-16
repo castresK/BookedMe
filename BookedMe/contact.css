@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background:#32471C;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    background: #32471C;
+    transition: background 0.3s ease;
+    height: 70pt;
+}
+
+.logo p {
+    color: #EEEDEB;
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: 'Inter'
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 5%;
+    transition: padding 0.3s ease;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    padding: 15px;
+    margin-right: auto;
+    transition: padding 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50%;
+}
+
+.nav-bar a {
+    color: white;
+    font-weight: 700;
+    margin: 15px;       
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}   
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 300px;
+    width: fit-content;
+
+}
+
+.left h3 {
+    display: flex;
+    color: white;
+}
+
+.left p {
+    margin-top: 30px;
+    color: white;
+}
+
+.left i {
+    color: black;
+    margin: 10px;
+}
+
+.right {
+    float: right;
+    border: 1px solid black;
+    background-color:#D9D9D9;
+    margin-top: -400px;
+    margin-right: 250px;
+    border-radius: 30px;
+    width: 370px;
+    height: auto;
+    display: flex; 
+}
+
+.right h2 {
+    font-family: 'Actor';
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.deets {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.deets span {
+    font-size: larger;
+    margin-top: 5px;
+}
+
+.deets textarea {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 250px;
+    height: 40px;
+    background-color:  #8F8F8F;
+    border: none;
+}
+
+#message { 
+    border-radius: 5px; 
+    background-color:  #8F8F8F;
+    resize: vertical; 
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    background-color: #32471C;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+}
